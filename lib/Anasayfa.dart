@@ -153,6 +153,8 @@ class _AnasayfaState extends State<Anasayfa> {
                      child: Container(
 
 
+                     width: 114,
+
                      child: Padding(
                        padding: const EdgeInsets.all(6.0),
                        child: Column(
@@ -167,9 +169,9 @@ class _AnasayfaState extends State<Anasayfa> {
                              ],
                                  ),
 
-                              Text("250 TL İndirim!", style: TextStyle(fontSize: 14,fontWeight: FontWeight.bold,color: Colors.white, backgroundColor: Colors.blueGrey),),
+                              Text("250 TL İndirim!", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.white, backgroundColor: Colors.blueGrey),),
 
-                           Divider(color: Colors.blueGrey,),
+                           Divider(color: Colors.white,),
                            Text("Detaylı Bilgi", style: TextStyle(fontSize: 13, color: Colors.black, backgroundColor: Colors.white,),),
                          ],
                        ),
@@ -191,6 +193,7 @@ class _AnasayfaState extends State<Anasayfa> {
                      child: Container(
 
 
+                       width: 114,
                        child: Padding(
                          padding: const EdgeInsets.all(6.0),
                          child: Column(
@@ -205,9 +208,9 @@ class _AnasayfaState extends State<Anasayfa> {
                                   ],
                                 ),
 
-                             Text("250 TL İndirim!", style: TextStyle(fontSize: 14,fontWeight: FontWeight.bold,color: Colors.white, backgroundColor: Colors.blueGrey),),
+                             Text("250 TL İndirim!", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.white, backgroundColor: Colors.blueGrey),),
 
-                             Divider(color: Colors.blueGrey,),
+                             Divider(color: Colors.white,),
                              Text("Detaylı Bilgi", style: TextStyle(fontSize: 13, color: Colors.black, backgroundColor: Colors.white,),),
                            ],
                          ),
@@ -220,13 +223,14 @@ class _AnasayfaState extends State<Anasayfa> {
 
 
                  Padding(
-                   padding: const EdgeInsets.all(8.0),
+                   padding: const EdgeInsets.all(7.0),
                    child: Card(
                      shape: RoundedRectangleBorder(side: BorderSide(color: Colors.blueGrey,width: 4),borderRadius: BorderRadius.circular(5.0),),
 
                      child: Container(
 
 
+                       width: 114,
                        child: Padding(
                          padding: const EdgeInsets.all(6.0),
                          child: Column(
@@ -241,9 +245,9 @@ class _AnasayfaState extends State<Anasayfa> {
                                ],
                              ),
 
-                             Text("40 TL İndirim!", style: TextStyle(fontSize: 14,fontWeight: FontWeight.bold,color: Colors.white, backgroundColor: Colors.blueGrey),),
+                             Text("40 TL İndirim!", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.white, backgroundColor: Colors.blueGrey),),
 
-                             Divider(color: Colors.blueGrey,),
+                             Divider(color: Colors.white,),
                              Text("Detaylı Bilgi", style: TextStyle(fontSize: 13, color: Colors.black, backgroundColor: Colors.white,),),
                            ],
                          ),
